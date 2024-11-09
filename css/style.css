@@ -206,15 +206,25 @@ p {
 .heading {
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   color: #2e2f42;
+  padding-bottom: 72px;
 }
 .heading-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.heading-item {
+  width: 360px;
+  height: 420px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 
 .heading-titel {
@@ -223,6 +233,7 @@ p {
   letter-spacing: 0.02em;
   line-height: 1.2;
   color: #2e2f42;
+  padding: 32px 0 8px;
 }
 
 .heading-text {
@@ -234,7 +245,9 @@ p {
 /* #region footer */
 .footer {
   background: #2e2f42;
+  padding: 100px 0 100px;
 }
+
 .logo-light {
   color: #f4f4fd;
 }
@@ -242,5 +255,7 @@ p {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #f4f4fd;
+  padding-top: 17.5px;
+  width: 264px;
 }
 /* #endregion */
