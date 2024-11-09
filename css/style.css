@@ -148,6 +148,7 @@ p {
   font-weight: 500;
   padding-bottom: 8px;
   gap: 24px;
+
   justify-content: center;
 }
 .text {
