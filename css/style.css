@@ -117,6 +117,7 @@ p {
   line-height: 1.07;
   width: 496px;
   margin: 0 auto;
+  padding-bottom: 48px;
 }
 .buttom {
   cursor: pointer;
@@ -128,6 +129,7 @@ p {
   padding: 16px 32px;
   border-radius: 4px;
   margin: 0 auto;
+  display: block;
 }
 .buttom:hover,
 .buttom:focus {
@@ -139,6 +141,10 @@ p {
 .list {
   display: flex;
   padding: 120px 0 105px;
+  gap: 24px;
+}
+.list-item {
+  max-width: 264px;
 }
 .titel-item {
   letter-spacing: 0.02em;
@@ -147,9 +153,6 @@ p {
   line-height: 1.2;
   font-weight: 500;
   padding-bottom: 8px;
-  gap: 24px;
-
-  justify-content: center;
 }
 .text {
   letter-spacing: 0.02em;
