@@ -26,8 +26,8 @@ p {
 }
 .container {
   width: 1158px;
-  padding: 15px;
-  margin: 0;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 /* #endregion */
 
