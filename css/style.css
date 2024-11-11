@@ -126,8 +126,7 @@ img {
   font-size: 56px;
   line-height: 1.07;
   max-width: 496px;
-  margin: 0 auto;
-  padding-bottom: 48px;
+  margin: 0 auto 48px;
 }
 .buttom {
   cursor: pointer;
